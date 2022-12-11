@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="/dist/animations.css">
+  <link rel="stylesheet" href="/dist/slick/slick.css">
+  <link rel="stylesheet" href="/dist/slick/slick-theme.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="/dist/main.js" defer></script>
+  <script src="/dist/slick/slick.js" defer></script>
+  <script src="/dist/slick/slider.js" defer></script>
+</head>
+
+<body id="app">
+  <nav>
+    <div class="wrap_nav relative grid grid-cols-2 gap-x-4 nav_min_768 mx-auto list_transform px-4 py-2">
+      <div href="#" class="flex items-center gap-2"><img src="/dist/img/logo.svg" alt=""><a href="/">Lasles<span
+            class="font-bold">VPN</span></a></div>
+      <div
+        class="burger_btn cursor-pointer flex flex-col gap-[5px] items-center justify-center bg-theme_red rounded-[50%] w-10 h-10 row-start-1 row-end-2 col-start-2 col-end-3 justify-self-end z-50">
+        <span class="w-7 h-[2px] bg-white_color"></span>
+        <span class="w-7 h-[2px] bg-white_color"></span>
+        <span class="w-7 h-[2px] bg-white_color"></span>
+      </div>
+      <ul class="link menu_list w-full absolute top-44 left-0 text-2xl bg-grey justify-self-center text-center flex flex-col gap-5 ul_min_768 py-4 pb-8 col-start-1 col-end-3 z-0">
+        <li><a class="link" href="#">About</a></li>
+        <li><a class="link" href="#">Features</a></li>
+        <li><a class="link" href="#">Pricing</a></li>
+        <li><a class="link" href="#">Testimonials</a></li>
+        <li><a class="link" href="#">Help</a></li>
+      </ul>
+      <div class="sign sign_min_768 absolute top-0 left-0 w-full bg-grey justify-center flex gap-4 items-center row-start-2 row-end-3 sign_min_768 py-4 pt-8 mt-4 col-start-1 col-end-3 z-0">
+        <a href="#">Sign In</a>
+        <form action="#">
+          <button class="btn-transparent">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="wrapper main-min-768 grid my-8 gap-x-6 overflow-visible">
+      <h1 class="font-bold leading-[50px] md:leading-[70px]">Want anything to be easy with <span class="font-extrabold">LaslesVPN.</span>
+      </h1>
+      <p>Provide a network for all your needs with ease and fun using <span class="font-semibold"> LaslesVPN </span>
+        discover interesting features from us.</p>
+      <form action="#"><button class="btn-red">Get Started</button></form>
+      <img class="img_full_size mt-6" src="/dist/img/Illustration 1.png" alt="">
+    </div>
+  </main>
+  <section>
+    <div class="wrapper block_custom flex rounded-xl py-6 anim-item">
+      <div class="flex w-full justify-center custom_right_border">
+        <figure class="flex justify-center items-center flex-col gap-4">
+          <img class="_zoom0" src="/dist/img/user.svg" alt="">
+          <figcaption class="flex flex-col text-center">
+            <span class="font-bold">90+</span>
+            <span>Users</span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="flex w-full justify-center">
+        <figure class="flex justify-center items-center flex-col gap-4">
+          <img class="_zoom1" src="/dist/img/user.svg" alt="">
+          <figcaption class="flex flex-col text-center">
+            <span class="font-bold">30+</span>
+            <span>Locations</span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="flex w-full justify-center custom_left_border">
+        <figure class="flex justify-center items-center flex-col gap-4">
+          <img class="_zoom2" src="/dist/img/user.svg" alt="">
+          <figcaption class="flex flex-col text-center">
+            <span class="font-bold">50+</span>
+            <span>Servers</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrapper section_3 grid gap-4 items-center my-24 anim-item">
+      <img class="max-w-md w-full mx-auto zoom-img" src="/dist/img/Illustration 2.png" alt="">
+      <div class="max-w-md w-full mx-auto anim-item">
+        <h2 class="_left0">We Provide Many Features You Can Use</h2>
+        <p class="_left1">You can explore the features that we provide with fun and have their own functions each feature.</p>
+        <ul class=".features_lists leading-10 _left2">
+          <li class="features_li _left3">Powerfull online protection.</li>
+          <li class="features_li _left4">Internet without borders.</li>
+          <li class="features_li _left5">Supercharged VPN</li>
+          <li class="features_li _left6">No specific time limits.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="bacground_gradient">
+    <div class="wrapper">
+      <div class="text-center max-w-md mx-auto pt-12 anim-item">
+        <h2 class="anim-item">Choose Your Plan</h2>
+        <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+      </div>
+      <div class="plans grid grid-cols-1 justify-items-center gap-8 text-center mt-12">
+        <div
+          class="bg-white_color w-full flex flex-col items-center justify-between border-border_color border-2 rounded-xl py-10 hover:border-theme_red anim-item">
+          <div class="anim-item plans">
+            <img class="w-4/5 mt-4 mx-auto zoom-img1" src="/dist/img/Free.svg" alt="">
+            <h3>Free Plan</h3>
+            <ul class=" leading-10 text-left text-sm">
+              <li class="plans_list">Unlimited Bandwitch</li>
+              <li class="plans_list">Encrypted Connection</li>
+              <li class="plans_list">No Traffic Logs</li>
+              <li class="plans_list">Works on All Devices</li>
+            </ul>
+          </div>
+          <div class="mt-6">
+            <span class="font-bold">Free</span>
+            <form action="#" class="mt-2"><button class="btn-transparent m-0">Select</button></form>
+          </div>
+        </div>
+        <div
+          class="bg-white_color w-full flex flex-col items-center justify-between border-border_color border-2 rounded-xl py-10 hover:border-theme_red">
+          <div class="anim-item plans">
+            <img class="w-4/5 mt-4 mx-auto zoom-img2" src="/dist/img/Free.svg" alt="">
+            <h3>Standard Plan</h3>
+            <ul class="leading-10 text-left text-sm">
+              <li class="plans_list">Unlimited Bandwitch</li>
+              <li class="plans_list">Encrypted Connection</li>
+              <li class="plans_list">Yes Traffic Logs</li>
+              <li class="plans_list">Works on All Devices</li>
+              <li class="plans_list">Connect Anyware</li>
+            </ul>
+          </div>
+          <div class="mt-6">
+            <span class="font-bold">$9 / mo</span>
+            <form action="#" class="mt-2"><button class="btn-transparent m-0">Select</button></form>
+          </div>
+        </div>
+        <div
+          class="bg-white_color w-full flex flex-col items-center justify-between border-border_color border-2 rounded-xl py-10 hover:border-theme_red">
+          <div class="anim-item plans">
+            <img class="w-4/5 mt-4 mx-auto zoom-img3" src="/dist/img/Free.svg" alt="">
+            <h3>Premium Plan</h3>
+            <ul class="leading-10 text-left text-sm">
+              <li class="plans_list">Unlimited Bandwitch</li>
+              <li class="plans_list">Encrypted Connection</li>
+              <li class="plans_list">Yes Traffic Logs</li>
+              <li class="plans_list">Works on All Devices</li>
+              <li class="plans_list">Connect Anyware</li>
+              <li class="plans_list">Get New Features</li>
+            </ul>
+          </div>
+          <div class="mt-6">
+            <span class="font-bold">$12 / mo</span>
+            <form action="#" class="mt-2"><button class="btn-transparent m-0">Select</button></form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrapper mt-36">
+      <div class="text-center max-w-md mb-16 mx-auto anim-item">
+        <h2>Huge Global Network of Fast VPN</h2>
+        <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
+      </div>
+      <img src="/dist/img/Huge Global.png" alt="">
+      <div>
+        <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+      </div>
+      <div class="logo-slider">
+        <img src="/dist/img/netflix.png" alt="Netflix"><img src="/dist/img/reddit.png" alt="Reddit"><img src="/dist/img/amazon.png" alt="Amazon"><img src="/dist/img/discord.png" alt="Discord"><img src="/dist/img/spotify.png" alt="Spotify">
+      </div>
+    </div>
+  </section>
+  <section class="flex justify-end">
+    <div class="flex flex-col justify-end max-w-custom-with-calc overflow-hidden">
+      <div class="text-center max-w-md mb-16 self-start mx-auto px-4 lg:translate-x-3/4 lg:mx-0 anim-item">
+        <h2>Trusted by Thousands of Happy Customer</h2>
+        <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
+      </div>
+      <div class="feetbacks-slider overflow-hidden">
+
+        <div class="p-4 border-border_color hover:border-theme_red border-2 rounded-xl h-56">
+          <div class="flex justify-between">
+            <figure class="flex items-center gap-4">
+              <img src="/dist/img/Ellipse 175.png" alt="Viezh Robert">
+              <figcaption>
+                <h3 class="m-0">Viezh Robert</h3>
+                <span>Warsaw, Poland</span>
+              </figcaption>
+            </figure>
+            <div class="flex items-center gap-2">
+              <span>4.5</span>
+              <img src="/dist/img/star.svg" alt="">
+            </div>
+          </div>
+          <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+        </div>
+
+        <div class="p-4 border-border_color hover:border-theme_red border-2 rounded-xl h-56">
+          <div class="flex justify-between">
+            <figure class="flex items-center gap-4">
+              <img src="/dist/img/Ellipse 175 (1).png" alt="Yessica Christy">
+              <figcaption>
+                <h3 class="m-0">Yessica Christy</h3>
+                <span>Shanxi, China</span>
+              </figcaption>
+            </figure>
+            <div class="flex items-center gap-2">
+              <span>4.5</span>
+              <img src="/dist/img/star.svg" alt="">
+            </div>
+          </div>
+          <p>“I like it because I like to travel far and still can connect with high speed.”.</p>
+        </div>
+
+        <div class="p-4 border-border_color hover:border-theme_red border-2 rounded-xl h-56">
+          <div class="flex justify-between">
+            <figure class="flex items-center gap-4">
+              <img src="/dist/img/Ellipse 175 (2).png" alt="Kim Young Jou">
+              <figcaption>
+                <h3 class="m-0">Kim Young Jou</h3>
+                <span>Seoul, South Korea</span>
+              </figcaption>
+            </figure>
+            <div class="flex items-center gap-2">
+              <span>4.5</span>
+              <img src="/dist/img/star.svg" alt="">
+            </div>
+          </div>
+          <p>“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
+        </div>
+
+        <div class="p-4 border-border_color hover:border-theme_red border-2 rounded-xl h-56">
+          <div class="flex justify-between">
+            <figure class="flex items-center gap-4">
+              <img src="/dist/img/Ellipse 175.png" alt="Viezh Robert">
+              <figcaption>
+                <h3 class="m-0">Viezh Robert</h3>
+                <span>Warsaw, Poland</span>
+              </figcaption>
+            </figure>
+            <div class="flex items-center gap-2">
+              <span>4.5</span>
+              <img src="/dist/img/star.svg" alt="">
+            </div>
+          </div>
+          <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <div class="custom_transform p-4 overflow-x-hidden">
+    <div class="subscribe_block p-8 rounded-xl bg-white_color grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))]">
+      <div class="max-w-md anim-item">
+        <h2 class="m-0 mb-4">Subscribe Now for Get Special Features!</h2>
+        <p class="m-0">Let's subscribe with us and find the fun.</p>
+      </div>
+      <form class="flex justify-center items-center md:justify-end" action="#"><button class="btn-red">Subscribe Now</button></form>
+    </div>
+  </div>
+  <footer class="bg-[#F8F8F8] pt-32 pb-16">
+    <div class="wrapper grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))]">
+      <div class="max-w-xs">
+        <div href="#" class="flex items-center gap-2"><img src="/dist/img/logo.svg" alt=""><a href="/">Lasles<span class="font-bold">VPN</span></a></div>
+        <p>LaslesVPN is a private virtual network that has unique features and has high security.</p>
+        <div class="flex">
+          <a href=""><img src="/dist/img/Facebook.svg" alt="Facebook"></a><a href=""><img src="/dist/img/Twitter.svg" alt="Twitter"></a><a href=""><img src="/dist/img/Instagram.svg" alt="Instagram"></a>
+        </div>
+        <span class="opacity-50">©2020LaslesVPN</span>
+      </div>
+      <div class="flex justify-between">
+        <div>
+          <h3>Product</h3>
+          <ul>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Pricing</li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Server</a></li>
+            <li><a href="#">Countries</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Engage</h3>
+          <ul>
+            <li><a href="#">LaslesVPN ?</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Earn Money</h3>
+          <ul>
+            <li><a href="#">Affiliate</a></li>
+            <li><a href="#">Become Partner</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
