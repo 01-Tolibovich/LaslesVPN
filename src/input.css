@@ -131,7 +131,7 @@
     margin-right: .5em;
     content: '';
     display: inline-block;
-    background: url(dist/img/checkmark.svg) center center no-repeat;
+    background: url(../dist/img/checkmark.svg) center center no-repeat;
     background-size: contain;
     width: 1em;
     height: 1em;
@@ -143,7 +143,7 @@
     margin-right: .5em;
     content: '';
     display: inline-block;
-    background: url(dist/img/checkmark.svg) center center no-repeat;
+    background: url(../dist/img/checkmark.svg) center center no-repeat;
     background-size: contain;
     width: 1em;
     height: 1em;
